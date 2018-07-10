@@ -2,6 +2,10 @@ from time import sleep
 import notify2
 from threading import Timer
 
+"""
+Someone told me that I could make my battery last longer if I charged it to a maximum of 80%
+so I wrote this little baby to make noise in my ears everytime my battery hits 80% so I can take it off charge
+"""
 
 file1 = "/sys/class/power_supply/BAT0/status"
 
